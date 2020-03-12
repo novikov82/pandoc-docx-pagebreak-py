@@ -37,7 +37,7 @@ class DocxPagebreak(object):
                 if (doc.format == "docx"):
                     pf.debug("Page Break")
                     elem = self.pagebreak
-             elif elem.text == r"\newsection":
+            elif elem.text == r"\newsection":
                 if (doc.format == "docx"):
                      pf.debug("Section Break")
                      elem = self.sectionbreak
